@@ -144,7 +144,7 @@ main .nos-services{
 .a_propos{
     margin-bottom: 50px;
     width: 60%;
-    margin:0 auto;
+    margin:100px auto;
     
 
 }
@@ -165,6 +165,52 @@ main .nos-services{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+.goymacode{
+    display: flex;
+    width: 60%;
+    margin: 200px auto;
+    justify-content: space-around;
+    
+}
+
+.goymacode .gauche{
+    width: 40%;
+}
+
+.goymacode h1{
+    text-align: center;
+    color: #BB4652;
+    font-size: 26px;
+}
+
+.goymacode img{
+    width: 40%;
+    height: 400px;
+
+}
+
+.goymacode p{
+    margin: 35px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18273F;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.goymacode a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #f7f8fc;
+    background-color: #BB4652;
+    border-radius: 15px;
+    margin-left: 100px;
+    
+}
+
 
 .contact {
     margin-bottom: 100px;
@@ -192,7 +238,7 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -223,6 +269,27 @@ input[type="text"], input[type="email"], textarea {
     height: 40px;
 }
 
+
+
+
+.video video{
+    width: 50%;
+    margin-left: 440px;
+    margin-bottom: 100px;
+    
+}
+
+.video p{
+    width: 30%;
+    text-align: center;
+    margin: 40px auto;
+    line-height: 25px;
+}
+
+.video h1{
+    text-align: center;
+    
+}
 
 footer{
     height: 50px;
