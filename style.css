@@ -30,6 +30,9 @@ header{
     color: rgba(255, 255, 255, 0.767);
 }
 
+
+/* logo*/
+
 .logo{
     width: 30%;
     display: flex;
@@ -41,11 +44,8 @@ header{
     border-radius: 15px;
 
 }
-
 nav {
-    width: 70%; 
-    position: ;
-    
+    width: 70%;     
 }
 
 nav ul{
@@ -63,32 +63,15 @@ a{
     padding: 10px;
     font-weight: bold;
     font-size: 18px;
+    
 }
 
 a:hover{
 
 }
 
-.section-principale {
-    background-image:url(./ressource/im6.60cbe680.jpg)  ;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 80vh;
-    
-}
 
 
-.section-principale h2{
-    width: 50%;
-    font-size: 48px;
-    padding-left: 150px;
-    color: #f7f8fc;
-    padding-top: 200px;
-    margin-bottom: 50px;
-   
-    
-}
 
 
 /* style pour le main*/
@@ -109,6 +92,34 @@ main .section-principale a{
 main .nos-services{
     width: 100%;
     margin-bottom: 20px;
+}
+
+
+/* Section principale*/
+
+.section-principale {
+    background-image:url(./ressource/im6.60cbe680.jpg)  ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.section-principale a{
+    
+}
+
+
+.section-principale h2{
+    width: 50%;
+    font-size: 48px;
+    padding-left: 150px;
+    color: #f7f8fc;
+    padding-top: 200px;
+    margin-bottom: 50px;
+   
+    
 }
 
 .nos-services h1{
@@ -141,6 +152,9 @@ main .nos-services{
     margin-left: 30px;    
 }
 
+
+/*A propos*/
+
 .a_propos{
     margin-bottom: 50px;
     width: 60%;
@@ -167,7 +181,7 @@ main .nos-services{
 }
 
 
-
+/* Goymacode*/
 
 .goymacode{
     display: flex;
@@ -212,6 +226,9 @@ main .nos-services{
 }
 
 
+
+/* Contact*/
+
 .contact {
     margin-bottom: 100px;
     width: 60%;
@@ -235,16 +252,43 @@ form {
 label {
     font-weight: bold;
     display: block;
-    margin-bottom: 5px;
 }
 
 input[type="text"], textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: 1px solid #18273F;
     border-radius: 5px;
 }
+
+
+
+
+/*Vidéo*/
+
+.video video{
+    width: 50%;
+    margin-left: 440px;
+    margin-bottom: 100px;
+    
+}
+
+.video p{
+    width: 30%;
+    text-align: center;
+    margin: 40px auto;
+    line-height: 25px;
+}
+
+.video h1{
+    text-align: center;
+    
+}
+
+
+
+/*lien vers nos réseaux sociaux*/
 
 .social-icons {
     text-align: center;
@@ -271,26 +315,7 @@ input[type="text"], textarea {
 
 
 
-
-.video video{
-    width: 50%;
-    margin-left: 440px;
-    margin-bottom: 100px;
-    
-}
-
-.video p{
-    width: 30%;
-    text-align: center;
-    margin: 40px auto;
-    line-height: 25px;
-}
-
-.video h1{
-    text-align: center;
-    
-}
-
+/*footer*/
 footer{
     height: 50px;
     background-color: #18273F;
